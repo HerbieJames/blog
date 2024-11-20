@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-herbiejames-blog-chsrotsx3oc.ws.codeinstitute-ide.net',
+    '.herokuapp.com',
 ]
 
 
