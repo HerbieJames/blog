@@ -21,7 +21,7 @@ class Comment(models.Model):
         Post, on_delete=models.CASCADE, related_name="comments"
     )
     author = models.ForeignKey(
-        Post, on_delete=models.CASCADE, related_name="commenter"
+        User, on_delete=models.CASCADE, related_name="commenter"
     )
     body = models.TextField()
     approved = models.BooleanField(default=False)
